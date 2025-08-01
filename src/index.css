@@ -63,7 +63,7 @@ section {
 @layer components {
   .gradient-title {
     background: linear-gradient(180deg,
-        #2E2E2E 43.1%,
+        #fdfdfd 43.1%,
         rgba(253, 253, 253, 0) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -174,7 +174,7 @@ section {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    animation: marquee 60s linear infinite;
+    animation: marquee 40s linear infinite;
   }
 
   .marquee-item {

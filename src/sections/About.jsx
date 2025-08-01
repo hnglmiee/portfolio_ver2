@@ -53,11 +53,11 @@ function About() {
             <div className='md:col-span-12 col-span-12 row-span-4'>
               <div className='border border-[#495f87] rounded-2xl p-7 w-full h-full'>
                 <div>
-                  <img src='/images/flower.svg' alt='flower' className='md:w-32 w-16 flower' />
+                  <img src='/images/network.png' alt='flower' className='md:w-32 w-16 flower' />
                 </div>
                 <div className="mt-5">
                   <h1 className='text-[#37568f] md:text-5xl text-3xl'>Software Engineering Student</h1>
-                  <p className='md: text-2xl mt-2'>Profcient in Java and experienced with the Spring ecosystem, including Spring Boot, Spring MVC, Spring Data JPA, and Spring Security, for building robust, scalable, and secure web applications.</p>
+                  <p className='md: text-2xl mt-2'>I am a Software Engineering graduate from FPT University with a strong passion for backend development. In addition to my backend skills, I have a solid understanding of frontend technologies and a good sense of design aesthetics. I enjoy exploring new tools, frameworks, and best practices to stay up to date in the fast-evolving tech landscape. With a curious mindset and a strong drive for self-improvement, I constantly seek opportunities to grow as a well-rounded developer.</p>
                 </div>
               </div>
             </div>
@@ -77,8 +77,9 @@ function About() {
             <div id='card' className='md:col-span-6 col-span-12 row-span-3'>
               <div className='border border-[#495f87] rounded-2xl p-7 w-full h-full'>
                 <div className='flex flex-col h-full justify-center'>
-                  <h1 className='text-[#37568f] md:text-3xl text-2xl font-medium' animated-text>Web Designer</h1>
-                  <p className='md:text-2xl max-w-120' animated-text> Familiar with RESTful API development, relational databases, and backend best practices.</p>
+                  <h1 className='text-[#37568f] md:text-3xl text-2xl font-medium' animated-text>UI/UX Designer</h1>
+                  <p className='md:text-2xl max-w-120' animated-text>My sense of aesthetics and foundational knowledge in design principles have greatly contributed to creating clean and intuitive user experiences.
+                  </p>
                 </div>
               </div>
             </div>
@@ -88,7 +89,7 @@ function About() {
               <div className='border border-[#495f87] rounded-2xl p-7 w-full h-full'>
                 <div className='flex flex-col h-full justify-center'>
                   <h1 className='text-[#37568f] md:text-3xl text-2xl font-medium' animated-text>Developer</h1>
-                  <p className='md:text-2xl max-w-120' animated-text> Familiar with RESTful API development, relational databases, and backend best practices.</p>
+                  <p className='md:text-2xl max-w-120' animated-text> I enjoy working with its powerful ecosystem to create robust, scalable backend systems, and I'm familiar with RESTful API development, relational databases, and backend best practices.</p>
                 </div>
               </div>
             </div>
@@ -121,7 +122,7 @@ function About() {
                 <div className='w-full h-full'>
                   <Canvas>
                     <OrbitControls enableZoom={false} />
-                    <Cat scale={1.3} position={[0, -0.5, 0]} rotation={[0, -5.5, 0]} />
+                    <Cat scale={1.2} position={[0, -0.5, 0]} rotation={[0, -5.5, 0]} />
                   </Canvas>
                 </div>
               </div>
