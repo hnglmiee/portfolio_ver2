@@ -210,13 +210,13 @@ section {
   }
 
   .projects-sphere-1 {
-    background: radial-gradient(circle, #ff28d5, #ff28d5);
+    background: radial-gradient(circle, #FF76C3, #FF76C3);
     top: 300px;
     left: 50px;
   }
 
   .projects-sphere-2 {
-    background: radial-gradient(circle, #1c34ff, #1c34ff);
+    background: radial-gradient(circle, #6ECBFF, #6ECBFF);
     top: 400px;
     left: 150px;
   }

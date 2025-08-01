@@ -62,8 +62,28 @@ const iconsList = [
     image: "/images/react.svg",
   },
   {
-    name: "typescript",
-    image: "/images/ts.svg",
+    name: "postman",
+    image: "/images/postman.svg",
+  },
+  {
+    name: "Java",
+    image: "/images/java.svg",
+  },
+  {
+    name: "C#",
+    image: "/images/csharp.svg",
+  },
+  {
+    name: "Springboot",
+    image: "/images/springboot.svg",
+  },
+  {
+    name: "SQLServer",
+    image: "/images/sqlserver.svg",
+  },
+  {
+    name: "Unity",
+    image: "/images/unity.svg",
   },
   {
     name: "github",
@@ -74,54 +94,31 @@ const iconsList = [
     image: "/images/gsap.svg",
   },
   {
-    name: "threejs",
-    image: "/images/threejs.svg",
-  },
-  {
     name: "figma",
     image: "/images/figma.svg",
-  },
-  {
-    name: "aws",
-    image: "/images/aws.svg",
   },
 ];
 
 const slides = [
   {
     id: 1,
-    title: "Sofi",
+    title: "Koi Care Clinic",
     img: "/images/p1.png",
   },
   {
     id: 2,
-    title: "Jasmina",
+    title: "Blood Donation System",
     img: "/images/p2.png",
   },
   {
     id: 3,
-    title: "d.tampe",
+    title: "Donut Fight",
     img: "/images/p3.png",
   },
   {
     id: 4,
-    title: "Blimp.gr",
+    title: "R.ODE Battle",
     img: "/images/p4.png",
-  },
-  {
-    id: 5,
-    title: "Hawk Style Design",
-    img: "/images/p5.png",
-  },
-  {
-    id: 6,
-    title: "Lewis",
-    img: "/images/p6.png",
-  },
-  {
-    id: 7,
-    title: "Sofi",
-    img: "/images/p1.png",
   },
 ];
 
@@ -158,9 +155,9 @@ const testimonials = [
 
 const footerIconsList = [
   {
-    name: "Facebook",
+    name: "Github",
     href: "https://www.facebook.com/",
-    icon: "/images/b-fb.svg",
+    icon: "/images/github.svg",
   },
   {
     name: "Instagram",
