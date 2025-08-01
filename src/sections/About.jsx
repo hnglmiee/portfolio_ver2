@@ -56,7 +56,7 @@ function About() {
                   <img src='/images/network.png' alt='flower' className='md:w-32 w-16 flower' />
                 </div>
                 <div className="mt-5">
-                  <h1 className='text-[#37568f] md:text-5xl text-3xl'>Software Engineering Student</h1>
+                  <h1 className='text-[#37568f] md:text-4xl text-2xl'>Software Engineering Student</h1>
                   <p className='md: text-2xl mt-2'>I am a Software Engineering graduate from FPT University with a strong passion for backend development. In addition to my backend skills, I have a solid understanding of frontend technologies and a good sense of design aesthetics. I enjoy exploring new tools, frameworks, and best practices to stay up to date in the fast-evolving tech landscape. With a curious mindset and a strong drive for self-improvement, I constantly seek opportunities to grow as a well-rounded developer.</p>
                 </div>
               </div>
