@@ -44,7 +44,7 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: #0b0620;
+  background-color: #F3E5BB;
   color: #a7a7a7;
   scroll-behavior: smooth;
 }
@@ -63,7 +63,7 @@ section {
 @layer components {
   .gradient-title {
     background: linear-gradient(180deg,
-        #fdfdfd 43.1%,
+        #2E2E2E 43.1%,
         rgba(253, 253, 253, 0) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -109,14 +109,14 @@ section {
   }
 
   .sphere-1 {
-    background: radial-gradient(circle, #ff28d5, #ff28d5);
+    background: radial-gradient(circle, #FF76C3, #FF76C3);
     top: -100px;
     left: 300px;
     animation: wander-left 10s ease-in-out infinite;
   }
 
   .sphere-2 {
-    background: radial-gradient(circle, #1c34ff, #1c34ff);
+    background: radial-gradient(circle, #6ECBFF, #6ECBFF);
     top: 100px;
     right: 300px;
     animation: wander-right 12s ease-in-out infinite;
@@ -139,7 +139,7 @@ section {
   }
 
   .about-sphere-2 {
-    background: radial-gradient(circle, #1c34ff, #1c34ff);
+    background: radial-gradient(circle, #6ECBFF, #6ECBFF);
     bottom: 100px;
     right: 50px;
   }

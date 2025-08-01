@@ -5,9 +5,11 @@ function Hero() {
   return (
     <section
       id='home'
-      className='h-dvh relative text-white-50 px-5 md:px-10 xl:px-20'>
+      className='h-dvh relative text-[#37568f] px-5 md:px-10 xl:px-20'>
 
-      <GradientSpheres sphere1Class={"gradient-sphere sphere-1"} sphere2Class={"gradient-sphere sphere-2"} />
+
+      {/* <GradientSpheres sphere1Class={"gradient-sphere sphere-1"} sphere2Class={"gradient-sphere sphere-2"} /> */}
+      <GradientSpheres sphere1Class={"gradient-sphere sphere-1"} />
 
       <div className='w-full h-full flex-center'>
         <div className='container relative w-full h-full'>
@@ -26,7 +28,7 @@ function Hero() {
               </div>
 
               <div className='flex flex-col items-end'>
-                <img src="images/shape.svg" alt="shape" className='' />
+                {/* <img src="images/shape.svg" alt="shape" className='' /> */}
                 <h1 className='font-bold md:text-9xl text-5xl'>DEVELOPER</h1>
               </div>
             </div>
