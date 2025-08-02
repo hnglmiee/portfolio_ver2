@@ -1,37 +1,55 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
+  const containerRef = useRef(null);
   const lineRef = useRef(null);
   const letterRefs = useRef([]);
 
   useEffect(() => {
-    // Line animation
-    gsap.fromTo(lineRef.current,
-      { width: '0%' },
-      {
-        width: '100%',
-        duration: 1.2,
-        ease: 'power2.out',
-      });
+    const ctx = gsap.context(() => {
+      // Line animation
+      gsap.fromTo(lineRef.current,
+        { width: '0%' },
+        {
+          width: '100%',
+          duration: 1.2,
+          ease: 'power2.out',
+          scrollTrigger: {
+            trigger: containerRef.current,
+            start: 'top bottom',
+            toggleActions: 'play none none none',
+          }
+        });
 
-    // Letters animation
-    gsap.fromTo(letterRefs.current,
-      { opacity: 0, y: 10 },
-      {
-        opacity: 1,
-        y: 0,
-        stagger: 0.1,
-        duration: 0.6,
-        ease: 'power2.out',
-        delay: 0.5,
-      });
+      // Letters animation
+      gsap.fromTo(letterRefs.current,
+        { opacity: 0, y: 10 },
+        {
+          opacity: 1,
+          y: 0,
+          stagger: 0.1,
+          duration: 0.6,
+          ease: 'power2.out',
+          delay: 0.2,
+          scrollTrigger: {
+            trigger: containerRef.current,
+            start: 'top bottom',
+            toggleActions: 'play none none none',
+          }
+        });
+    }, containerRef); // use gsap.context to cleanup properly
+
+    return () => ctx.revert();
   }, []);
 
   const name = 'Lamiee';
 
   return (
-    <div className='w-full flex flex-col items-center mt-10'>
+    <div ref={containerRef} className='w-full flex flex-col items-center mt-10'>
       <div
         ref={lineRef}
         className='h-[2px] bg-[#37568f] mb-4'
