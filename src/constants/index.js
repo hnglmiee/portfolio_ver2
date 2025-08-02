@@ -27,20 +27,11 @@ const bentoSocialLinks = [
     href: "https://github.com/hnglmiee",
     icon: "/images/fb.svg",
   },
-  {
-    name: "Instagram",
-    href: "https://www.facebook.com/",
-    icon: "/images/insta.svg",
-  },
+
   {
     name: "LinkedIn",
-    href: "https://www.facebook.com/",
+    href: "https://www.linkedin.com/in/hoang-lam-bui-pham-720266349/",
     icon: "/images/linkedin.svg",
-  },
-  {
-    name: "WhatsApp",
-    href: "https://www.facebook.com/",
-    icon: "/images/whatsapp.svg",
   },
 ];
 
@@ -102,54 +93,57 @@ const iconsList = [
 const slides = [
   {
     id: 1,
-    title: "Koi Care Clinic",
-    img: "/images/p1.png",
+    title: "Blood Donation System",
+    img: "/images/blooddonationsystem.png",
+    url: "https://github.com/D-NG-CAM-CH-U-KH/SWD392_Blood_Donation_System"
   },
   {
     id: 2,
-    title: "Blood Donation System",
-    img: "/images/p2.png",
+    title: "Koi Care Clinic",
+    img: "/images/koicareclinic.png",
+    url: "https://github.com/ThinhND3004/SWP391_Fall24_KoiVeterinaryServiceCenter_FE"
   },
   {
     id: 3,
     title: "Donut Fight",
-    img: "/images/p3.png",
+    img: "/images/donutfight.png",
+    url: "https://github.com/hnglmiee/PRU212_SpaceExplorer"
   },
   {
     id: 4,
     title: "R.ODE Battle",
-    img: "/images/p4.png",
+    img: "/images/rodebattle.jpg",
   },
 ];
 
 const testimonials = [
   {
-    name: "John Miller",
-    pos: "Founder of ModernEdge Solutions",
+    name: "FPT University HCMC Campus",
+    pos: "Software Engineering Student",
     review:
-      "David Jhon turned our vision into a stunning, functional platform that our customers love. Their creativity and technical expertise truly set them apart.",
-    imgPath: "/images/client1.png",
+      "I'm a Software Engineering student at FPT University HCMC Campus, where I focus on strengthening my programming skills and system thinking. With an academic foundation and a passion for technology, I'm eager to take part in real-world projects that push my capabilities further.",
+    imgPath: "/images/fpt.jpeg",
   },
   {
-    name: "Emily Carter",
-    pos: "UX Designer at PixelWorks Studio",
+    name: "F-Code Academic Club",
+    pos: "Head Of Media Department / Vice President",
     review:
-      "David Jhon consistently brings fresh ideas and innovative solutions. Their passion for creativity and attention to detail elevate every project.",
-    imgPath: "/images/client2.png",
+      "I serve as the Head of Media Department and Vice President at F-Code Academic Club, where I lead creative direction and oversee internal and external media campaigns.My strong sense of aesthetics and team leadership have contributed to impactful communication strategies and the club’s continued growth",
+    imgPath: "/images/fcode.jpg",
   },
   {
-    name: "Sarah Lopez",
-    pos: "Entrepreneur and Small Business Owner",
+    name: "Coc Sai Gon Communication Club",
+    pos: "Member",
     review:
-      "Exceeded my expectations with a unique and beautifully designed product that works flawlessly. Their creative touch is outstanding.",
-    imgPath: "/images/client3.png",
+      "As a member of Coc Sai Gon Communication Club, I engaged in creative content development and media branding activities. The club environment sharpened my aesthetic thinking and strengthened my teamwork in real- world communication projects.",
+    imgPath: "/images/cocsaigon.jpg",
   },
   {
-    name: "David Chen",
-    pos: "Project Manager at CreativeSphere Agency",
+    name: "FPT Sofware",
+    pos: "Manual Tester Internship",
     review:
-      "Blends technical skills with bold creativity to deliver exceptional results. They push boundaries and elevate every project they work on.",
-    imgPath: "/images/client4.png",
+      "During my internship at FPT Software as a Manual Tester, I was exposed to standardized and professional testing workflows.I learned to write clear test cases, detect issues effectively, and collaborate closely with developers to ensure product quality.",
+    imgPath: "/images/fs.png",
   },
 ];
 

@@ -46,8 +46,16 @@ function Carousel() {
                         <p className='text-[#fffffF]'>{slide.title}</p>
                       </div>
                       <div className='flex-center gap-5'>
-                        <p className='text-[#fffffF]'>Preview Project</p>
-                        <img className='md: size-10 size-7' src='/images/arrowupright.svg' alt='arrow-up' />
+                        <a
+                          href={slide.url}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='flex-center gap-2 text-[#ffffff] hover:underline'
+                        >
+                          <p>Preview Project</p>
+                          <img className='md:size-10 size-7' src='/images/arrowupright.svg' alt='arrow-up' />
+                        </a>
+
                       </div>
                     </div>
                   </div>
